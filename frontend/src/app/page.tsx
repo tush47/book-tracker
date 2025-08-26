@@ -15,7 +15,8 @@ export default function Home() {
   const [author, setAuthor] = useState('');
   const [loading, setLoading] = useState(false);
 
-  const API_URL = 'http://localhost:3000';
+  // const API_URL = 'http://localhost:3000';
+    const API_URL = 'https://book-tracker-j9ui.onrender.com';
 
   useEffect(() => {
     fetchBooks();
